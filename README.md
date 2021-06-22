@@ -83,17 +83,17 @@ SVMin/data/Cityscapes/gtFine/val
 Pre-trained models can be downloaded [here](https://github.com/Dayan-Guan/SVMin/releases/tag/Latest) and put in ```SVMin/pretrained_models```
 
 ### Evaluation
-To test SVMin:
+To evaluate SVMin:
 ```bash
 python test.py --cfg configs/SVMin_pretrained.yml
 ```
 
-To test SVMin_AL:
+To evaluate SVMin_AL:
 ```bash
 python test.py --cfg configs/SVMin_AL_pretrained.yml
 ```
 
-To test SVMin_AL_TR:
+To evaluate SVMin_AL_TR:
 ```bash
 python evaluate_advent.py --test-flipping --data-dir ../SVMin/data/Cityscapes --restore-from ../SVMin/pretrained_models/SVMin_AL_TR_pretrained.pth --save ../SVMin/experiments/GTA2Cityscapes_SVMin_AL_TR
 ```
@@ -102,6 +102,11 @@ python evaluate_advent.py --test-flipping --data-dir ../SVMin/data/Cityscapes --
 To train SVMin:
 ```bash
 python train.py --cfg configs/SVMin.yml
+```
+
+To test SVMin:
+```bash
+python test.py --cfg configs/SVMin.yml
 ```
 
 To train SVMin_AL and SVMin_AL_TR:
