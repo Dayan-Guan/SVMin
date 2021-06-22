@@ -104,6 +104,10 @@ To train SVMin:
 python train.py --cfg configs/SVMin.yml
 ```
 
+To train SVMin_AL and SVMin_AL_TR:
+
+Coming soon.
+
 ## Acknowledgements
 This codebase is heavily borrowed from [ADVENT](https://github.com/valeoai/ADVENT) and [CRST](https://github.com/yzou2/CRST).
 
