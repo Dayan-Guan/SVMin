@@ -80,7 +80,7 @@ SVMin/data/Cityscapes/gtFine/val
 ```
 
 ### Pre-trained models
-Pre-trained models can be downloaded [here](https://github.com/Dayan-Guan/SVMin/releases/tag/Latest) and put in ```UaDAN/pretrained_models```
+Pre-trained models can be downloaded [here](https://github.com/Dayan-Guan/SVMin/releases/tag/Latest) and put in ```SVMin/pretrained_models```
 
 ### Evaluation
 To test SVMin:
